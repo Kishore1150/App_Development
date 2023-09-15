@@ -1,0 +1,13 @@
+/* fonts.css */
+@font-face {
+  font-family: 'productsans-regular';
+  src: url('./fonts/c4.ttf') format('truetype');
+
+}
+
+
+@font-face {
+  font-family: 'productsans-bold';
+  src: url('./fonts/c2.ttf') format('truetype');
+
+}

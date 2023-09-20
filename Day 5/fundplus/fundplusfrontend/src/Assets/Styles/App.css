@@ -1,0 +1,26 @@
+
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: productsans-regular;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  scroll-behavior: smooth;
+}
+
+
+	.circle1{
+		animation-delay: 0.1s;
+
+	}
+	.circle2{
+		animation-delay: 0.2s;
+	}
+	.circle3{
+		animation-delay: 0.3s;
+	}

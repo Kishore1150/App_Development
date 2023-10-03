@@ -1,0 +1,485 @@
+2023-10-02T14:54:50.723+05:30  INFO 1812 --- [restartedMain] onationandfundraisingplatformApplication : Starting OnlinedonationandfundraisingplatformApplication using Java 17.0.8.1 with PID 1812 (E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend\onlinedonationandfundraisingplatform\target\classes started by KISHORE in E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend)
+2023-10-02T14:54:50.724+05:30  INFO 1812 --- [restartedMain] onationandfundraisingplatformApplication : No active profile set, falling back to 1 default profile: "default"
+2023-10-02T14:54:50.819+05:30  INFO 1812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-02T14:54:50.819+05:30  INFO 1812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-02T14:54:51.948+05:30  INFO 1812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-02T14:54:52.024+05:30  INFO 1812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+2023-10-02T14:54:52.857+05:30  INFO 1812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-02T14:54:52.877+05:30  INFO 1812 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-02T14:54:52.879+05:30  INFO 1812 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-02T14:54:52.967+05:30  INFO 1812 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-02T14:54:52.967+05:30  INFO 1812 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2148 ms
+2023-10-02T14:54:53.168+05:30  INFO 1812 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-02T14:54:53.251+05:30  INFO 1812 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-02T14:54:53.260+05:30  INFO 1812 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-02T14:54:53.445+05:30  INFO 1812 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:54:53.599+05:30  INFO 1812 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-02T14:54:53.622+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-02T14:54:53.980+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@dc4424c
+2023-10-02T14:54:53.982+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-02T14:54:54.335+05:30  INFO 1812 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:54:55.037+05:30  INFO 1812 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-02T14:54:55.154+05:30  INFO 1812 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:54:55.773+05:30  WARN 1812 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-02T14:54:56.311+05:30  INFO 1812 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@18f70a93, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1941740f, org.springframework.security.web.context.SecurityContextHolderFilter@4529fead, org.springframework.security.web.header.HeaderWriterFilter@7364c7e5, org.springframework.security.web.csrf.CsrfFilter@19b1dc9f, org.springframework.security.web.authentication.logout.LogoutFilter@2a8bf807, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@756ebb88, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7d922537, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4e4e716d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@29651a58, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@139d7d8b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51f8fc62, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35acab7e, org.springframework.security.web.access.ExceptionTranslationFilter@9494c24, org.springframework.security.web.access.intercept.AuthorizationFilter@5a6ce273]
+2023-10-02T14:54:56.363+05:30  INFO 1812 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-02T14:54:56.407+05:30  INFO 1812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-02T14:54:56.415+05:30  INFO 1812 --- [restartedMain] onationandfundraisingplatformApplication : Started OnlinedonationandfundraisingplatformApplication in 6.198 seconds (process running for 6.819)
+2023-10-02T14:55:16.695+05:30  INFO 1812 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-02T14:55:16.695+05:30  INFO 1812 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-02T14:55:16.695+05:30  INFO 1812 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-10-02T14:55:16.713+05:30 DEBUG 1812 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /fundplus/login
+2023-10-02T14:55:16.729+05:30 DEBUG 1812 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-02T14:55:16.737+05:30 DEBUG 1812 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2023-10-02T14:55:16.743+05:30 DEBUG 1812 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using Or [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest], And [Not [MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[text/html], useEquals=false, ignoredMediaTypes=[]]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[application/atom+xml, application/x-www-form-urlencoded, application/json, application/octet-stream, application/xml, multipart/form-data, text/xml], useEquals=false, ignoredMediaTypes=[*/*]]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[*/*], useEquals=true, ignoredMediaTypes=[]]]
+2023-10-02T14:55:16.747+05:30 DEBUG 1812 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.DelegatingAuthenticationEntryPoint@35bb0bae
+2023-10-02T14:55:16.747+05:30 DEBUG 1812 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]
+2023-10-02T14:55:16.747+05:30 DEBUG 1812 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : No match found. Using default entry point org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint@184493b4
+2023-10-02T14:55:16.751+05:30 DEBUG 1812 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /error
+2023-10-02T14:55:16.758+05:30 DEBUG 1812 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-02T14:55:16.760+05:30 DEBUG 1812 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2023-10-02T14:55:16.761+05:30 DEBUG 1812 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using Or [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest], And [Not [MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[text/html], useEquals=false, ignoredMediaTypes=[]]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[application/atom+xml, application/x-www-form-urlencoded, application/json, application/octet-stream, application/xml, multipart/form-data, text/xml], useEquals=false, ignoredMediaTypes=[*/*]]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[*/*], useEquals=true, ignoredMediaTypes=[]]]
+2023-10-02T14:55:16.763+05:30 DEBUG 1812 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.DelegatingAuthenticationEntryPoint@35bb0bae
+2023-10-02T14:55:16.763+05:30 DEBUG 1812 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]
+2023-10-02T14:55:16.763+05:30 DEBUG 1812 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : No match found. Using default entry point org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint@184493b4
+2023-10-02T14:55:25.181+05:30 DEBUG 1812 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /fundplus/login
+2023-10-02T14:55:25.182+05:30 DEBUG 1812 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-02T14:55:25.184+05:30 DEBUG 1812 --- [http-nio-8080-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2023-10-02T14:55:25.184+05:30 DEBUG 1812 --- [http-nio-8080-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using Or [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest], And [Not [MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[text/html], useEquals=false, ignoredMediaTypes=[]]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[application/atom+xml, application/x-www-form-urlencoded, application/json, application/octet-stream, application/xml, multipart/form-data, text/xml], useEquals=false, ignoredMediaTypes=[*/*]]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[*/*], useEquals=true, ignoredMediaTypes=[]]]
+2023-10-02T14:55:25.184+05:30 DEBUG 1812 --- [http-nio-8080-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.DelegatingAuthenticationEntryPoint@35bb0bae
+2023-10-02T14:55:25.186+05:30 DEBUG 1812 --- [http-nio-8080-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]
+2023-10-02T14:55:25.187+05:30 DEBUG 1812 --- [http-nio-8080-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : No match found. Using default entry point org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint@184493b4
+2023-10-02T14:55:25.187+05:30 DEBUG 1812 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing OPTIONS /error
+2023-10-02T14:55:25.187+05:30 DEBUG 1812 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-02T14:55:25.190+05:30 DEBUG 1812 --- [http-nio-8080-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2023-10-02T14:55:25.191+05:30 DEBUG 1812 --- [http-nio-8080-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using Or [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest], And [Not [MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[text/html], useEquals=false, ignoredMediaTypes=[]]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[application/atom+xml, application/x-www-form-urlencoded, application/json, application/octet-stream, application/xml, multipart/form-data, text/xml], useEquals=false, ignoredMediaTypes=[*/*]]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@5ef6104, matchingMediaTypes=[*/*], useEquals=true, ignoredMediaTypes=[]]]
+2023-10-02T14:55:25.193+05:30 DEBUG 1812 --- [http-nio-8080-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.DelegatingAuthenticationEntryPoint@35bb0bae
+2023-10-02T14:55:25.193+05:30 DEBUG 1812 --- [http-nio-8080-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]
+2023-10-02T14:55:25.193+05:30 DEBUG 1812 --- [http-nio-8080-exec-2] s.w.a.DelegatingAuthenticationEntryPoint : No match found. Using default entry point org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint@184493b4
+2023-10-02T14:56:08.988+05:30  INFO 1812 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-10-02T14:56:09.007+05:30  INFO 1812 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-02T14:56:09.009+05:30  INFO 1812 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-02T14:56:09.024+05:30  INFO 1812 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:56:09.029+05:30  INFO 1812 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-02T14:56:09.040+05:30  INFO 1812 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-02T14:56:09.129+05:30  INFO 1812 --- [restartedMain] onationandfundraisingplatformApplication : Starting OnlinedonationandfundraisingplatformApplication using Java 17.0.8.1 with PID 1812 (E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend\onlinedonationandfundraisingplatform\target\classes started by KISHORE in E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend)
+2023-10-02T14:56:09.130+05:30  INFO 1812 --- [restartedMain] onationandfundraisingplatformApplication : No active profile set, falling back to 1 default profile: "default"
+2023-10-02T14:56:09.587+05:30  INFO 1812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-02T14:56:09.608+05:30  INFO 1812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2023-10-02T14:56:09.770+05:30  INFO 1812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-02T14:56:09.773+05:30  INFO 1812 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-02T14:56:09.773+05:30  INFO 1812 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-02T14:56:09.806+05:30  INFO 1812 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-02T14:56:09.806+05:30  INFO 1812 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 674 ms
+2023-10-02T14:56:09.865+05:30  INFO 1812 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-02T14:56:09.873+05:30  INFO 1812 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:56:09.873+05:30  INFO 1812 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-02T14:56:09.873+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-10-02T14:56:09.895+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1be47b7d
+2023-10-02T14:56:09.901+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-10-02T14:56:09.929+05:30  INFO 1812 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:56:10.059+05:30  INFO 1812 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-02T14:56:10.105+05:30  INFO 1812 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:56:10.201+05:30  WARN 1812 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'applicationconfig' defined in file [E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend\onlinedonationandfundraisingplatform\target\classes\com\fundplus\Config\Applicationconfig.class]: Failed to instantiate [com.fundplus.Config.Applicationconfig$$SpringCGLIB$$0]: Constructor threw exception
+2023-10-02T14:56:10.201+05:30  INFO 1812 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:56:10.210+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-10-02T14:56:10.227+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-10-02T14:56:10.231+05:30  INFO 1812 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-02T14:56:10.244+05:30  INFO 1812 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-02T14:56:10.284+05:30 ERROR 1812 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'applicationconfig' defined in file [E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend\onlinedonationandfundraisingplatform\target\classes\com\fundplus\Config\Applicationconfig.class]: Failed to instantiate [com.fundplus.Config.Applicationconfig$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298) ~[spring-boot-3.1.4.jar:3.1.4]
+	at com.fundplus.OnlinedonationandfundraisingplatformApplication.main(OnlinedonationandfundraisingplatformApplication.java:25) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.4.jar:3.1.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.fundplus.Config.Applicationconfig$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:110) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.0.12.jar:6.0.12]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+
+	at com.fundplus.Config.Applicationconfig.<init>(Applicationconfig.java:20) ~[classes/:na]
+	at com.fundplus.Config.Applicationconfig$$SpringCGLIB$$0.<init>(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-6.0.12.jar:6.0.12]
+	... 26 common frames omitted
+
+2023-10-02T14:56:23.974+05:30  INFO 1812 --- [restartedMain] onationandfundraisingplatformApplication : Starting OnlinedonationandfundraisingplatformApplication using Java 17.0.8.1 with PID 1812 (E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend\onlinedonationandfundraisingplatform\target\classes started by KISHORE in E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend)
+2023-10-02T14:56:23.976+05:30  INFO 1812 --- [restartedMain] onationandfundraisingplatformApplication : No active profile set, falling back to 1 default profile: "default"
+2023-10-02T14:56:24.372+05:30  INFO 1812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-02T14:56:24.399+05:30  INFO 1812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 2 JPA repository interfaces.
+2023-10-02T14:56:24.585+05:30  INFO 1812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-02T14:56:24.589+05:30  INFO 1812 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-02T14:56:24.589+05:30  INFO 1812 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-02T14:56:24.627+05:30  INFO 1812 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-02T14:56:24.627+05:30  INFO 1812 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 647 ms
+2023-10-02T14:56:24.678+05:30  INFO 1812 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-02T14:56:24.687+05:30  INFO 1812 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:56:24.688+05:30  INFO 1812 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-02T14:56:24.689+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-10-02T14:56:24.701+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75de1b89
+2023-10-02T14:56:24.707+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-10-02T14:56:24.740+05:30  INFO 1812 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:56:24.917+05:30  INFO 1812 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-02T14:56:24.968+05:30  INFO 1812 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:56:25.069+05:30  WARN 1812 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'applicationconfig' defined in file [E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend\onlinedonationandfundraisingplatform\target\classes\com\fundplus\Config\Applicationconfig.class]: Failed to instantiate [com.fundplus.Config.Applicationconfig$$SpringCGLIB$$0]: Constructor threw exception
+2023-10-02T14:56:25.075+05:30  INFO 1812 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:56:25.075+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-10-02T14:56:25.103+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-10-02T14:56:25.103+05:30  INFO 1812 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-02T14:56:25.109+05:30  INFO 1812 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-02T14:56:25.118+05:30 ERROR 1812 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'applicationconfig' defined in file [E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend\onlinedonationandfundraisingplatform\target\classes\com\fundplus\Config\Applicationconfig.class]: Failed to instantiate [com.fundplus.Config.Applicationconfig$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298) ~[spring-boot-3.1.4.jar:3.1.4]
+	at com.fundplus.OnlinedonationandfundraisingplatformApplication.main(OnlinedonationandfundraisingplatformApplication.java:25) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.4.jar:3.1.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.fundplus.Config.Applicationconfig$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:110) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.0.12.jar:6.0.12]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+
+	at com.fundplus.Config.Applicationconfig.<init>(Applicationconfig.java:20) ~[classes/:na]
+	at com.fundplus.Config.Applicationconfig$$SpringCGLIB$$0.<init>(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-6.0.12.jar:6.0.12]
+	... 26 common frames omitted
+
+2023-10-02T14:56:26.579+05:30  INFO 1812 --- [restartedMain] onationandfundraisingplatformApplication : Starting OnlinedonationandfundraisingplatformApplication using Java 17.0.8.1 with PID 1812 (E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend\onlinedonationandfundraisingplatform\target\classes started by KISHORE in E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend)
+2023-10-02T14:56:26.581+05:30  INFO 1812 --- [restartedMain] onationandfundraisingplatformApplication : No active profile set, falling back to 1 default profile: "default"
+2023-10-02T14:56:26.804+05:30  INFO 1812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-02T14:56:26.820+05:30  INFO 1812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2023-10-02T14:56:26.930+05:30  INFO 1812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-02T14:56:26.930+05:30  INFO 1812 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-02T14:56:26.930+05:30  INFO 1812 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-02T14:56:26.951+05:30  INFO 1812 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-02T14:56:26.953+05:30  INFO 1812 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 372 ms
+2023-10-02T14:56:26.997+05:30  INFO 1812 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-02T14:56:27.004+05:30  INFO 1812 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:56:27.004+05:30  INFO 1812 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-02T14:56:27.004+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-10-02T14:56:27.018+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a20c55d
+2023-10-02T14:56:27.019+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-10-02T14:56:27.040+05:30  INFO 1812 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:56:27.114+05:30  INFO 1812 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-02T14:56:27.138+05:30  INFO 1812 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:56:27.207+05:30  WARN 1812 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'applicationconfig' defined in file [E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend\onlinedonationandfundraisingplatform\target\classes\com\fundplus\Config\Applicationconfig.class]: Failed to instantiate [com.fundplus.Config.Applicationconfig$$SpringCGLIB$$0]: Constructor threw exception
+2023-10-02T14:56:27.208+05:30  INFO 1812 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:56:27.208+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-10-02T14:56:27.216+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-10-02T14:56:27.218+05:30  INFO 1812 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-02T14:56:27.221+05:30  INFO 1812 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-02T14:56:27.226+05:30 ERROR 1812 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'applicationconfig' defined in file [E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend\onlinedonationandfundraisingplatform\target\classes\com\fundplus\Config\Applicationconfig.class]: Failed to instantiate [com.fundplus.Config.Applicationconfig$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.12.jar:6.0.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309) ~[spring-boot-3.1.4.jar:3.1.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298) ~[spring-boot-3.1.4.jar:3.1.4]
+	at com.fundplus.OnlinedonationandfundraisingplatformApplication.main(OnlinedonationandfundraisingplatformApplication.java:25) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.4.jar:3.1.4]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.fundplus.Config.Applicationconfig$$SpringCGLIB$$0]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:110) ~[spring-beans-6.0.12.jar:6.0.12]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.0.12.jar:6.0.12]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+
+	at com.fundplus.Config.Applicationconfig.<init>(Applicationconfig.java:20) ~[classes/:na]
+	at com.fundplus.Config.Applicationconfig$$SpringCGLIB$$0.<init>(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Unknown Source) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Unknown Source) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-6.0.12.jar:6.0.12]
+	... 26 common frames omitted
+
+2023-10-02T14:56:32.781+05:30  INFO 1812 --- [restartedMain] onationandfundraisingplatformApplication : Starting OnlinedonationandfundraisingplatformApplication using Java 17.0.8.1 with PID 1812 (E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend\onlinedonationandfundraisingplatform\target\classes started by KISHORE in E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend)
+2023-10-02T14:56:32.781+05:30  INFO 1812 --- [restartedMain] onationandfundraisingplatformApplication : No active profile set, falling back to 1 default profile: "default"
+2023-10-02T14:56:32.968+05:30  INFO 1812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-02T14:56:32.987+05:30  INFO 1812 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2023-10-02T14:56:33.085+05:30  INFO 1812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-02T14:56:33.088+05:30  INFO 1812 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-02T14:56:33.090+05:30  INFO 1812 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-02T14:56:33.115+05:30  INFO 1812 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-02T14:56:33.115+05:30  INFO 1812 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 333 ms
+2023-10-02T14:56:33.158+05:30  INFO 1812 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-02T14:56:33.171+05:30  INFO 1812 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:56:33.172+05:30  INFO 1812 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-02T14:56:33.172+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-10-02T14:56:33.188+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10f178f1
+2023-10-02T14:56:33.188+05:30  INFO 1812 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-10-02T14:56:33.214+05:30  INFO 1812 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:56:33.288+05:30  INFO 1812 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-02T14:56:33.338+05:30  INFO 1812 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:56:33.455+05:30  WARN 1812 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-02T14:56:33.575+05:30  WARN 1812 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9c6f8aa8-0d95-44ff-9c90-e628bc1c1872
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-10-02T14:56:33.585+05:30  INFO 1812 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6df6a6f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7804e020, org.springframework.security.web.context.SecurityContextHolderFilter@14e28f19, org.springframework.security.web.header.HeaderWriterFilter@3d76c650, org.springframework.security.web.csrf.CsrfFilter@5166e30b, org.springframework.security.web.authentication.logout.LogoutFilter@4e5168f8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@29ac362, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6e50ee60, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2cd1ad91, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@47c96d61, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@727a5835, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@651ff0d5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20ff7f0f, org.springframework.security.web.access.ExceptionTranslationFilter@3b958cfb, org.springframework.security.web.access.intercept.AuthorizationFilter@3d9867ab]
+2023-10-02T14:56:33.592+05:30  INFO 1812 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-02T14:56:33.608+05:30  INFO 1812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-02T14:56:33.615+05:30  INFO 1812 --- [restartedMain] onationandfundraisingplatformApplication : Started OnlinedonationandfundraisingplatformApplication in 0.856 seconds (process running for 104.017)
+2023-10-02T14:56:33.622+05:30  INFO 1812 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository,org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-10-02T14:56:38.879+05:30  INFO 23996 --- [restartedMain] onationandfundraisingplatformApplication : Starting OnlinedonationandfundraisingplatformApplication using Java 17.0.8.1 with PID 23996 (E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend\onlinedonationandfundraisingplatform\target\classes started by KISHORE in E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend)
+2023-10-02T14:56:38.882+05:30  INFO 23996 --- [restartedMain] onationandfundraisingplatformApplication : No active profile set, falling back to 1 default profile: "default"
+2023-10-02T14:56:38.994+05:30  INFO 23996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-02T14:56:38.999+05:30  INFO 23996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-02T14:56:39.824+05:30  INFO 23996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-02T14:56:39.902+05:30  INFO 23996 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2023-10-02T14:56:40.635+05:30  INFO 23996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-02T14:56:40.646+05:30  INFO 23996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-02T14:56:40.648+05:30  INFO 23996 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-02T14:56:40.738+05:30  INFO 23996 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-02T14:56:40.739+05:30  INFO 23996 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1738 ms
+2023-10-02T14:56:40.911+05:30  INFO 23996 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-02T14:56:40.973+05:30  INFO 23996 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-02T14:56:40.978+05:30  INFO 23996 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-02T14:56:41.127+05:30  INFO 23996 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:56:41.261+05:30  INFO 23996 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-02T14:56:41.272+05:30  INFO 23996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-02T14:56:41.623+05:30  INFO 23996 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40d41a4a
+2023-10-02T14:56:41.624+05:30  INFO 23996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-02T14:56:41.908+05:30  INFO 23996 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:56:42.581+05:30  INFO 23996 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-02T14:56:42.665+05:30  INFO 23996 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:56:43.173+05:30  WARN 23996 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-02T14:56:43.610+05:30  WARN 23996 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8037e8cc-769b-45f7-a0b7-e6ac97d627f8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-10-02T14:56:43.718+05:30  INFO 23996 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@384360f0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e98fdb, org.springframework.security.web.context.SecurityContextHolderFilter@4a108e42, org.springframework.security.web.header.HeaderWriterFilter@53bc158f, org.springframework.security.web.csrf.CsrfFilter@30134ba9, org.springframework.security.web.authentication.logout.LogoutFilter@3af22f14, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2183f2a5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7a0f3f0c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@368476e7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@677b0dde, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5887727, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cc0e93b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8bec7b4, org.springframework.security.web.access.ExceptionTranslationFilter@103556ff, org.springframework.security.web.access.intercept.AuthorizationFilter@62cd67a7]
+2023-10-02T14:56:43.771+05:30  WARN 23996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-10-02T14:56:43.805+05:30  WARN 23996 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-10-02T14:56:43.809+05:30  INFO 23996 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:56:43.810+05:30  INFO 23996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-02T14:56:43.822+05:30  INFO 23996 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-02T14:56:43.827+05:30  INFO 23996 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-02T14:56:43.844+05:30  INFO 23996 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-02T14:56:43.870+05:30 ERROR 23996 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-10-02T14:56:53.004+05:30  INFO 25420 --- [restartedMain] onationandfundraisingplatformApplication : Starting OnlinedonationandfundraisingplatformApplication using Java 17.0.8.1 with PID 25420 (E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend\onlinedonationandfundraisingplatform\target\classes started by KISHORE in E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend)
+2023-10-02T14:56:53.013+05:30  INFO 25420 --- [restartedMain] onationandfundraisingplatformApplication : No active profile set, falling back to 1 default profile: "default"
+2023-10-02T14:56:53.101+05:30  INFO 25420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-02T14:56:53.102+05:30  INFO 25420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-02T14:56:53.917+05:30  INFO 25420 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-02T14:56:53.989+05:30  INFO 25420 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2023-10-02T14:56:54.710+05:30  INFO 25420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-02T14:56:54.723+05:30  INFO 25420 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-02T14:56:54.724+05:30  INFO 25420 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-02T14:56:54.815+05:30  INFO 25420 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-02T14:56:54.815+05:30  INFO 25420 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1713 ms
+2023-10-02T14:56:54.988+05:30  INFO 25420 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-02T14:56:55.049+05:30  INFO 25420 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-02T14:56:55.052+05:30  INFO 25420 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-10-02T14:56:55.200+05:30  INFO 25420 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:56:55.352+05:30  INFO 25420 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-02T14:56:55.366+05:30  INFO 25420 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-02T14:56:55.699+05:30  INFO 25420 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a2c9625
+2023-10-02T14:56:55.699+05:30  INFO 25420 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-02T14:56:56.017+05:30  INFO 25420 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:56:56.673+05:30  INFO 25420 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-02T14:56:56.739+05:30  INFO 25420 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:56:57.248+05:30  WARN 25420 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-02T14:56:57.694+05:30  WARN 25420 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0143f0c2-630f-4761-bcca-35e8852b0a26
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-10-02T14:56:57.813+05:30  INFO 25420 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a086e8c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d53d8ac, org.springframework.security.web.context.SecurityContextHolderFilter@334ddb18, org.springframework.security.web.header.HeaderWriterFilter@18aefe7a, org.springframework.security.web.csrf.CsrfFilter@7374af52, org.springframework.security.web.authentication.logout.LogoutFilter@40bd73a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@579637e9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6a5b5035, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1ce00c39, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@33b48f1e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4efe0d3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d7d569e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57cb1a0b, org.springframework.security.web.access.ExceptionTranslationFilter@12fc65ab, org.springframework.security.web.access.intercept.AuthorizationFilter@387bd017]
+2023-10-02T14:56:57.861+05:30  INFO 25420 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-02T14:56:57.901+05:30  INFO 25420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-02T14:56:57.909+05:30  INFO 25420 --- [restartedMain] onationandfundraisingplatformApplication : Started OnlinedonationandfundraisingplatformApplication in 5.43 seconds (process running for 6.016)
+2023-10-02T14:57:13.392+05:30  INFO 25420 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-02T14:57:13.393+05:30  INFO 25420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-02T14:57:13.395+05:30  INFO 25420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-02T14:57:13.406+05:30 DEBUG 25420 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /fundplus/login
+2023-10-02T14:57:13.409+05:30 DEBUG 25420 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-02T14:57:13.425+05:30 DEBUG 25420 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@2835d578, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2023-10-02T14:57:13.429+05:30 DEBUG 25420 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using Or [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest], And [Not [MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@2835d578, matchingMediaTypes=[text/html], useEquals=false, ignoredMediaTypes=[]]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@2835d578, matchingMediaTypes=[application/atom+xml, application/x-www-form-urlencoded, application/json, application/octet-stream, application/xml, multipart/form-data, text/xml], useEquals=false, ignoredMediaTypes=[*/*]]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@2835d578, matchingMediaTypes=[*/*], useEquals=true, ignoredMediaTypes=[]]]
+2023-10-02T14:57:13.429+05:30 DEBUG 25420 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.DelegatingAuthenticationEntryPoint@4a04d1d2
+2023-10-02T14:57:13.429+05:30 DEBUG 25420 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]
+2023-10-02T14:57:13.429+05:30 DEBUG 25420 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : No match found. Using default entry point org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint@9d6b90f
+2023-10-02T14:57:13.444+05:30 DEBUG 25420 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing OPTIONS /error
+2023-10-02T14:57:13.444+05:30 DEBUG 25420 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2023-10-02T14:57:13.444+05:30 DEBUG 25420 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using And [Not [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@2835d578, matchingMediaTypes=[application/xhtml+xml, image/*, text/html, text/plain], useEquals=false, ignoredMediaTypes=[*/*]]]
+2023-10-02T14:57:13.444+05:30 DEBUG 25420 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using Or [RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest], And [Not [MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@2835d578, matchingMediaTypes=[text/html], useEquals=false, ignoredMediaTypes=[]]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@2835d578, matchingMediaTypes=[application/atom+xml, application/x-www-form-urlencoded, application/json, application/octet-stream, application/xml, multipart/form-data, text/xml], useEquals=false, ignoredMediaTypes=[*/*]]], MediaTypeRequestMatcher [contentNegotiationStrategy=org.springframework.web.accept.ContentNegotiationManager@2835d578, matchingMediaTypes=[*/*], useEquals=true, ignoredMediaTypes=[]]]
+2023-10-02T14:57:13.444+05:30 DEBUG 25420 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Match found! Executing org.springframework.security.web.authentication.DelegatingAuthenticationEntryPoint@4a04d1d2
+2023-10-02T14:57:13.444+05:30 DEBUG 25420 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : Trying to match using RequestHeaderRequestMatcher [expectedHeaderName=X-Requested-With, expectedHeaderValue=XMLHttpRequest]
+2023-10-02T14:57:13.452+05:30 DEBUG 25420 --- [http-nio-8080-exec-1] s.w.a.DelegatingAuthenticationEntryPoint : No match found. Using default entry point org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint@9d6b90f
+2023-10-02T14:58:25.736+05:30  INFO 25420 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-02T14:58:25.756+05:30  INFO 25420 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-02T14:58:25.759+05:30  INFO 25420 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-02T14:58:25.770+05:30  INFO 25420 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:58:25.776+05:30  INFO 25420 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-02T14:58:25.791+05:30  INFO 25420 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-02T14:58:25.888+05:30  INFO 25420 --- [restartedMain] onationandfundraisingplatformApplication : Starting OnlinedonationandfundraisingplatformApplication using Java 17.0.8.1 with PID 25420 (E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend\onlinedonationandfundraisingplatform\target\classes started by KISHORE in E:\Donation_And_Fundraising_WebApp\fundplus\fundplusbackend)
+2023-10-02T14:58:25.888+05:30  INFO 25420 --- [restartedMain] onationandfundraisingplatformApplication : No active profile set, falling back to 1 default profile: "default"
+2023-10-02T14:58:26.146+05:30  INFO 25420 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-02T14:58:26.161+05:30  INFO 25420 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2023-10-02T14:58:26.292+05:30  INFO 25420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-02T14:58:26.293+05:30  INFO 25420 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-02T14:58:26.293+05:30  INFO 25420 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-02T14:58:26.319+05:30  INFO 25420 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-02T14:58:26.320+05:30  INFO 25420 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 428 ms
+2023-10-02T14:58:26.361+05:30  INFO 25420 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-02T14:58:26.368+05:30  INFO 25420 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:58:26.369+05:30  INFO 25420 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-02T14:58:26.370+05:30  INFO 25420 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-10-02T14:58:26.385+05:30  INFO 25420 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79ef0bb7
+2023-10-02T14:58:26.387+05:30  INFO 25420 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-10-02T14:58:26.409+05:30  INFO 25420 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-10-02T14:58:26.477+05:30  INFO 25420 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-02T14:58:26.505+05:30  INFO 25420 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:58:26.613+05:30  WARN 25420 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-02T14:58:26.726+05:30  WARN 25420 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5feea5e0-c3f9-4a55-9bba-b322ce0d4ff8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-10-02T14:58:26.735+05:30  INFO 25420 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1a9f2df7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1885e255, org.springframework.security.web.context.SecurityContextHolderFilter@3a16295, org.springframework.security.web.header.HeaderWriterFilter@5e1a240a, org.springframework.security.web.csrf.CsrfFilter@53f2dbb3, org.springframework.security.web.authentication.logout.LogoutFilter@686bb313, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4bb341bf, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7ef370cc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@49eae643, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7e7590f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46cb1e11, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71c6308a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1bca1597, org.springframework.security.web.access.ExceptionTranslationFilter@505cfcce, org.springframework.security.web.access.intercept.AuthorizationFilter@4df9fc25]
+2023-10-02T14:58:26.747+05:30  INFO 25420 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-02T14:58:26.760+05:30  INFO 25420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-02T14:58:26.767+05:30  INFO 25420 --- [restartedMain] onationandfundraisingplatformApplication : Started OnlinedonationandfundraisingplatformApplication in 0.904 seconds (process running for 94.869)
+2023-10-02T14:58:26.770+05:30  INFO 25420 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-02T14:58:36.291+05:30  INFO 25420 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-02T14:58:36.306+05:30  INFO 25420 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-02T14:58:36.310+05:30  INFO 25420 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-02T14:58:36.312+05:30  INFO 25420 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-10-02T14:58:36.320+05:30  INFO 25420 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
